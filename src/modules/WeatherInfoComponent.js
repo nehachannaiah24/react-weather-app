@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import {WeatherIcons} from "../App";
 
 export const WeatherInfoIcons = {
     sunset: "/public/icons/temp.svg",
@@ -31,11 +30,7 @@ const WeatherInfoLabel = styled.span`
   font-weight: bold;
   font-size: 14px;
 `;
-const WeatherIcon = styled.img`
-  width: 100px;
-  height: 100px;
-  margin: 5px auto;
-`;
+
 const WeatherContainer = styled.div`
   display: flex;
   width: 100%;

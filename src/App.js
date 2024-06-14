@@ -4,22 +4,7 @@ import Axios from "axios";
 import CityComponent from "./modules/CityComponent";
 import WeatherComponent from "./modules/WeatherInfoComponent";
 
-export const WeatherIcons = {
-  "01d": "/public/icons/sunny.svg",
-  "01n": "/public/icons/night.svg",
-  "02d": "/public/icons/day.svg",
-  "02n": "/react-weather-app/public/icons/cloudy-night.svg",
-  "03d": "/react-weather-app/public/icons/cloudy.svg",
-  "03n": "/react-weather-app/public/icons/cloudy.svg",
-  "04d": "/react-weather-app/public/icons/perfect-day.svg",
-  "04n": "/react-weather-app/public/icons/cloudy-night.svg",
-  "09d": "/react-weather-app/public/icons/rain.svg",
-  "09n": "/react-weather-app/public/icons/rain-night.svg",
-  "10d": "/react-weather-app/public/icons/rain.svg",
-  "10n": "/react-weather-app/public/icons/rain-night.svg",
-  "11d": "/react-weather-app/public/icons/storm.svg",
-  "11n": "/react-weather-app/public/icons/storm.svg",
-};
+
 
 const Container = styled.div`
   display: flex;
