@@ -1,6 +1,6 @@
-## React Weather App 
+# React Weather App 
 
-# Demo can be seen in the below :
+## Demo can be seen in the below :
 
 - first the user is asked to enter the name of the city
 ![](demo_image1.png)
